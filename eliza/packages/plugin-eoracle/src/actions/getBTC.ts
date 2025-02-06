@@ -35,7 +35,7 @@ function fetchBtcPrice() {
     }
 }
 
-export const EORACLE_GET_BTC_PRICE: Action = {
+export default getBTC: Action = {
     name: "Get BTC Price",
     similes: ["Get BTC price"],
     description: "This fetch the price from eoracle",
